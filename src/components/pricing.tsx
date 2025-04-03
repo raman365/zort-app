@@ -61,7 +61,7 @@ function Pricing() {
           <motion.div
           variants={fadeInUp}
             whileHover={{ scale: 1.05 }}
-            className="relative p-8 bg-[#14151A] rounded-xl shadow-lg border border-gray-700 transition-all duration-300 hover:shadow-purple-400/30"
+            className="relative p-8 bg-[#14151A] rounded-xl shadow-lg border border-gray-700 hover:shadow-purple-400/30"
           >
             <div className="mb-4">
               <CheckCircle style={{ stroke: "url(#gradient1)" }} size={40} />
@@ -114,7 +114,7 @@ function Pricing() {
           <motion.div
           variants={fadeInUp}
             whileHover={{ scale: 1.05 }}
-            className="relative p-8 bg-gradient-to-r from-purple-600 to-purple-700 rounded-xl shadow-lg border border-purple-500 transition-all duration-300"
+            className="relative p-8 bg-gradient-to-r from-purple-600 to-purple-700 rounded-xl shadow-lg border border-purple-500"
           >
             {/* Best Value Badge */}
             <div className="absolute top-4 right-4 bg-purple-300 text-black text-sm px-3 py-1 rounded-full font-bold">
@@ -173,7 +173,7 @@ function Pricing() {
           <motion.div
           variants={fadeInUp}
             whileHover={{ scale: 1.05 }}
-            className="relative p-8 bg-[#14151A] rounded-xl shadow-lg border border-gray-700 transition-all duration-300 hover:shadow-purple-400/30"
+            className="relative p-8 bg-[#14151A] rounded-xl shadow-lg border border-gray-700 hover:shadow-purple-400/30"
           >
             <div className="mb-4">
               <Rocket style={{ stroke: "url(#gradient1)" }} size={40} />

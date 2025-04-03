@@ -92,7 +92,7 @@ function Features() {
             variants={fadeInUp}
               key={index}
               whileHover={{ scale: 1.05 }}
-              className="relative p-6 bg-[#14151A] rounded-xl shadow-lg border border-gray-700 transition-all duration-300 hover:shadow-purple-400/30"
+              className="relative p-6 bg-[#14151A] rounded-xl shadow-lg border border-gray-700 hover:shadow-purple-400/30"
             >
               {/* Icon with Gradient */}
               <div className="mb-4">{feature.icon}</div>
