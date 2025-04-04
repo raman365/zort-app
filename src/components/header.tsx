@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="absolute top-0 left-0 w-full bg-opacity-75 text-white py-4 shadow-lg">
       <div className="flex justify-between items-center px-[3%]">
-        <a href="/">
+        <a href="https://raman365.github.io/zort-app/">
           <img
             src={logo}
             alt="Logo"

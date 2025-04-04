@@ -16,7 +16,7 @@ function Footer() {
         {/* Quick Links */}
         <div className="flex flex-col space-y-3 text-left">
           <h3 className="text-white font-semibold">Quick Links</h3>
-          <a href="/" className="hover:text-purple-400 transition-colors">
+          <a href="https://raman365.github.io/zort-app/" className="hover:text-purple-400 transition-colors">
             Home
           </a>
           <a href="#features" className="hover:text-purple-400 transition-colors">

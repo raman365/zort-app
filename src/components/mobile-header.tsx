@@ -39,7 +39,7 @@ function MobileHeader() {
         {/* Logo */}
         <div className="flex-1 flex justify-center">
           <a
-            href="/"
+            href="https://raman365.github.io/zort-app/"
             className="hover:text-blue-500 transition-colors duration-300"
           >
             <img src={logo} alt="Logo" className="h-8" />
