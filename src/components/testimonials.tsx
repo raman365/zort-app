@@ -5,8 +5,8 @@ import { useRef } from "react";
 import { Star } from "lucide-react"; // Star icon
 
 const fadeInUp = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { duration: 0.8 } },
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
 };
 
 const staggerContainer = {
@@ -59,7 +59,7 @@ function Testimonials() {
       <div className="text-center">
         {/* Title */}
         <motion.h2
-        variants={fadeInUp}
+          variants={fadeInUp}
           className="place-self-center text-4xl md:text-5xl font-bold text-white"
           style={{
             background: "linear-gradient(45deg, #ffffff, #7F00FF)",
@@ -71,7 +71,10 @@ function Testimonials() {
         </motion.h2>
 
         {/* Stars & Review Count */}
-        <motion.div variants={fadeInUp} className="flex items-center justify-center gap-2 mt-4 text-lg font-semibold">
+        <motion.div
+          variants={fadeInUp}
+          className="flex items-center justify-center gap-2 mt-4 text-lg font-semibold"
+        >
           <div className="flex text-yellow-400">
             {Array(5)
               .fill(0)
